@@ -1,0 +1,153 @@
+PODS:
+  - ActiveLabel (1.0.1)
+  - Alamofire (4.8.2)
+  - AMScrollingNavbar (5.3.0)
+  - AsyncSwift (2.0.4)
+  - Charts (3.3.0):
+    - Charts/Core (= 3.3.0)
+  - Charts/Core (3.3.0)
+  - CocoaLumberjack/Core (3.5.3)
+  - CocoaLumberjack/Swift (3.5.3):
+    - CocoaLumberjack/Core
+  - CryptoSwift (1.0.0)
+  - ESTabBarController-swift (2.7)
+  - KeychainAccess (3.2.0)
+  - Kingfisher (4.10.1)
+  - MJRefresh (3.2.0)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - PKHUD (5.3.0)
+  - Realm (3.17.3):
+    - Realm/Headers (= 3.17.3)
+  - Realm/Headers (3.17.3)
+  - RealmSwift (3.17.3):
+    - Realm (= 3.17.3)
+  - Result (4.1.0)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+  - SideMenu (5.0.1)
+  - SnapKit (4.2.0)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
+  - Starscream (3.1.0)
+  - SwiftSoup (2.2.0)
+  - SwiftyBeaver (1.7.0)
+  - SwiftyJSON (5.0.0)
+  - Toaster (2.2.0)
+  - URLNavigator (2.2.0)
+  - YNDropDownMenu (3.1.0)
+  - YNSearch (2.4.0)
+
+DEPENDENCIES:
+  - ActiveLabel
+  - Alamofire (~> 4)
+  - AMScrollingNavbar
+  - AsyncSwift
+  - Charts
+  - CocoaLumberjack/Swift
+  - CryptoSwift
+  - ESTabBarController-swift
+  - KeychainAccess
+  - Kingfisher
+  - MJRefresh
+  - Moya
+  - PKHUD
+  - RealmSwift
+  - RxCocoa (~> 5)
+  - RxSwift (~> 5)
+  - SideMenu
+  - SnapKit
+  - SQLite.swift
+  - Starscream
+  - SwiftSoup
+  - SwiftyBeaver
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+  - Toaster
+  - URLNavigator
+  - YNDropDownMenu
+  - YNSearch
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ActiveLabel
+    - Alamofire
+    - AMScrollingNavbar
+    - AsyncSwift
+    - Charts
+    - CocoaLumberjack
+    - CryptoSwift
+    - ESTabBarController-swift
+    - KeychainAccess
+    - Kingfisher
+    - MJRefresh
+    - Moya
+    - PKHUD
+    - Realm
+    - RealmSwift
+    - Result
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SideMenu
+    - SnapKit
+    - SQLite.swift
+    - Starscream
+    - SwiftSoup
+    - SwiftyBeaver
+    - Toaster
+    - URLNavigator
+    - YNDropDownMenu
+    - YNSearch
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: bad5f2f94a71216a32c030a3586bdcfc1f7e660b
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  ActiveLabel: b8b2396fe25308d563601437d6605bf691c3b5db
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AMScrollingNavbar: 8548c0df70da8f894217a709d9b2555b9d0babbe
+  AsyncSwift: 65775a7b32e740609b24969ece3de58723b9dc3e
+  Charts: e0dd4cd8f257bccf98407b58183ddca8e8d5b578
+  CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
+  CryptoSwift: d81eeaa59dc5a8d03720fe919a6fd07b51f7439f
+  ESTabBarController-swift: 4fb52ad03d94d0717ef97bc9eb09a5abfdded0a2
+  KeychainAccess: 3b1bf8a77eb4c6ea1ce9404c292e48f948954c6b
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  Realm: 5a1d9d47bfc101dd597668b1a8af4288a2557f6d
+  RealmSwift: b7fdc2d18616621c31df5c7a398a45a2163f8eb0
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  SideMenu: 87efd943737bb83aedf0358884d09fcf5576636d
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+  Starscream: 08172b481e145289c4930cb567230fb55897cfa4
+  SwiftSoup: 230991361c5ba249d140161860a3864a28b63860
+  SwiftyBeaver: 4cc0080d2e23f980652e28978db11a5c9da39165
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Toaster: c1a81b376edcc2470157b4d1ee1e9341d3b96455
+  URLNavigator: 0bffc3efdeb2d97f7b5eec7ac82d290f4a099431
+  YNDropDownMenu: 9c88e36c5f913bc614aaf0f3d0a7968f6251268b
+  YNSearch: 56d4aad4547fd1efce355cccc220a94735b1ea14
+
+PODFILE CHECKSUM: 06549abc247a8ca8e8dd505f93968204a257dd81
+
+COCOAPODS: 1.6.1
