@@ -18,7 +18,6 @@ class ViewController: MQBaseViewController {
     @IBOutlet weak var label: UILabel!
     
     var userVM = MQHomeViewModel()
-    
     let disposeBag = DisposeBag()
     
     override func viewDidLoad() {
@@ -33,15 +32,12 @@ class ViewController: MQBaseViewController {
 //        //将用户信息绑定到label上
 //        userVM.userinfo.bind(to: label.rx.text).disposed(by: disposeBag)
 
-
-
+        
         /*方法二*/
         //将用户名与textField做双向绑定
 //        _ =  self.textField.rx.textInput <->  self.userVM.username
-        
         //将用户信息绑定到label上
 //        userVM.userinfo.bind(to: label.rx.text).disposed(by: disposeBag)
-        
     }
 
 
@@ -51,17 +47,11 @@ class ViewController: MQBaseViewController {
             print(response.response ?? "") // HTTP URL响应
             print(response.data ?? "")     // 服务器返回的数据
             print(response.result )   // 响应序列化结果，在这个闭包里，存储的是JSON数据
-            
-            let json = JSON(response.data)
-
-//            let json = JSON(data: response.data!)
+            let json = JSON(response.data!)
             print("JSON: \(json)")
-
             if let userName = json["ip"].string{
                 print("userName: \(userName)")
-//                self.textField.text = userName
             }
-            
 //            if let JSON = response.result.value {
 //                print("JSON: \(JSON)")
 //                textField.rx.text = JSON
